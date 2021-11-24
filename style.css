@@ -1,0 +1,193 @@
+body{
+  background-color: #5ead53;
+  padding: 5px;
+}
+h1{
+
+  background-color: white;
+  border: 10px solid #061838;
+  /* margin: px; */
+  margin: auto;
+  width: 400px;
+  padding: 5px;
+  color: blue;
+  text-align: center;
+
+}
+.page{
+text-align: center;
+margin: 30px;
+font-size: 30px;
+background-color: #73adff;
+padding: 10px;
+transition: all 0.5s ease;
+}
+
+.page:hover{
+  background-color:white;
+  cursor: pointer;
+}
+p{
+  font-size: 70px;
+}
+
+
+.paragraph:hover{
+  background-color:white;
+  cursor: pointer;
+}
+
+html{scroll-behavior:smooth}
+
+.center{
+  display: flex;
+  justify-content: center;
+}
+.grid{
+  flex-wrap: wrap;
+  background-color: #73adff;
+  font-size: 25px;
+  border-radius: 30px;
+}
+.gridfig{
+
+  align-content: center;
+
+  text-align: center;
+  width: 20%;
+}
+.gridfig img{
+  width:100%;
+}
+figure{
+  align-content: center;
+
+  text-align: center;
+  width: fit-content;
+}
+
+
+figure img{
+  vertical-align: center;
+  display: block;
+width: auto;
+width: 100%
+}
+figcaption{
+  text-align: center;
+width: auto;
+font-size: 20px;
+}
+.caption{
+font-size: 20px;
+
+margin: 20px;
+padding: 20px;
+border-radius: 20px;
+color: white;
+background-color: blue;
+
+}
+
+#open_box{
+  transition: all 0.5s ease;
+}
+
+#open_box:hover{
+  background-color:#ffcccc;
+  cursor: pointer;
+}
+
+.paragraph{
+  text-align: center;
+  margin:  20px ;
+  font-size: 30px;
+  background-color: #73adff;
+  padding: 5px;
+  transition: all 0.5s ease;
+}
+
+.paragraphs{
+  align-self: center;
+  margin: 20px;
+  width: fit-content;
+    background-color: #9e7741;
+    display: flex;
+    justify-content: space-between;
+}
+
+#Sinkholetrail{
+  margin: 30px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: green;
+  width: fit-content;
+}
+
+
+
+.pages{
+  margin: 20px;
+  background-color: #9e7741;
+
+  display: flex;
+  justify-content: space-between;
+width: fit-content;
+}
+
+.MainPageImage{
+align-content: center;
+padding: 20px;
+background-color: white;
+border-radius: 10px;
+margin: 30px;
+}
+
+#homeImg{
+  width:80px;
+  border: 10px solid white;
+  border-radius: 10px;
+
+}
+
+#homeImg:hover{
+  border-color: blue;
+}
+
+p{
+  font-size: 25px;
+  color: black;
+}
+
+.quote {
+  font-size: 20px;
+  text-align: center;
+
+margin: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  color: #4f4f4f;
+  background-color: #b5b5b5;
+
+}
+h2{
+  align-self: center;
+}
+.words{
+  background-color: white;
+  margin: 20px;
+  padding-left:70px;
+  padding-right:70px;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+a{
+text-decoration: none;
+color: blue;
+}
+
+a:hover{
+  text-decoration: underline;
+  color: red;
+}
